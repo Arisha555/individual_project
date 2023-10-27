@@ -4,7 +4,6 @@
 from random import random
 import matplotlib.pyplot as plt
 
-
 x = []
 y = []
 for i in range(100):
