@@ -1,8 +1,10 @@
 # individual_project
+
+```python
 from random import random
 import matplotlib.pyplot as plt
 
-```python
+
 x = []
 y = []
 for i in range(100):
