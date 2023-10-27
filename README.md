@@ -2,6 +2,7 @@
 from random import random
 import matplotlib.pyplot as plt
 
+```python
 x = []
 y = []
 for i in range(100):
@@ -13,3 +14,4 @@ for i in range(100):
 
 plt.scatter(x, y)
 plt.show()
+```
