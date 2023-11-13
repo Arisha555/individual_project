@@ -16,3 +16,18 @@ for i in range(100):
 plt.scatter(x, y)
 plt.show()
 ```
+
+```python
+import matplotlib.pyplot as plt
+import math
+
+x = []
+y = []
+for i in range(-50, 50):
+    t = i / 10
+    if t != -1:
+        x.append(t)
+        y.append(math.sin(1 / (t + 1)))
+plt.plot(x, y)
+plt.show()
+```
